@@ -13,8 +13,6 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.example.demo.idemo.main.MainActivity;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
