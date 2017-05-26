@@ -18,12 +18,12 @@ import com.example.demo.idemo.base.BaseActivity;
  */
 public class KeyFrameAnimatorActivity extends BaseActivity implements View.OnClickListener {
     private ImageView iv;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_key_frame_animator);
         iv = (ImageView) findViewById(R.id.iv_keyframe);
+        iv.setImageResource(R.drawable.lufei);
         initListener();
     }
 

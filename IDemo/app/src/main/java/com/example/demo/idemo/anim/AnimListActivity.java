@@ -11,7 +11,8 @@ import com.example.demo.idemo.base.InfoBean;
 public class AnimListActivity extends BaseActivity {
 
     private InfoBean[] bean = {new InfoBean("ObjectAnimator", ObjectAnimatorActivity.class),
-            new InfoBean("KeyFrame", KeyFrameAnimatorActivity.class)};
+            new InfoBean("KeyFrame", KeyFrameAnimatorActivity.class),
+            new InfoBean("图片转换为圆形", CircleImageActivity.class)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

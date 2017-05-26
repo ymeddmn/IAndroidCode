@@ -1,5 +1,6 @@
 package com.example.demo.idemo.main;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -18,6 +19,8 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
         lv = (ListView) findViewById(R.id.lv_main);
         setAdapter(infoBeans);
+        Intent intent = new Intent();
+        intent.setClassName("com.egongchang.egc","")
     }
 
 
