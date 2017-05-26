@@ -20,7 +20,7 @@ public class MainActivity extends BaseActivity {
         lv = (ListView) findViewById(R.id.lv_main);
         setAdapter(infoBeans);
         Intent intent = new Intent();
-        intent.setClassName("com.egongchang.egc","")
+        intent.setClassName("com.egongchang.egc","");
     }
 
 
