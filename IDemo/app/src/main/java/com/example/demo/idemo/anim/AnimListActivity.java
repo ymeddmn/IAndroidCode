@@ -10,7 +10,8 @@ import com.example.demo.idemo.base.InfoBean;
 
 public class AnimListActivity extends BaseActivity {
 
-    private InfoBean[] bean = {new InfoBean("ObjectAnimator", ObjectAnimatorActivity.class)};
+    private InfoBean[] bean = {new InfoBean("ObjectAnimator", ObjectAnimatorActivity.class),
+            new InfoBean("KeyFrame", KeyFrameAnimatorActivity.class)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
