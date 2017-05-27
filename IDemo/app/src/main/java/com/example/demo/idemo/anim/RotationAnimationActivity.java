@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
-import android.view.animation.Interpolator;
 import android.view.animation.RotateAnimation;
 
 import com.example.demo.idemo.base.BaseImageActivity;
@@ -38,7 +37,5 @@ public class RotationAnimationActivity extends BaseImageActivity implements View
         animation.setFillAfter(true);
 
         ivIcon.startAnimation(animation);
-        Interpolator r;
-        Evaluator
     }
 }
