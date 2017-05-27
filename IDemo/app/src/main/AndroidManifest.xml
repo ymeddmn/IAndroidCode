@@ -23,7 +23,11 @@
         <activity android:name=".anim.AnimListActivity" />
         <activity android:name=".anim.ObjectAnimatorActivity" />
         <activity android:name=".anim.KeyFrameAnimatorActivity" />
-        <activity android:name=".anim.CircleImageActivity"></activity>
+        <activity android:name=".anim.CircleImageActivity" />
+        <activity android:name=".anim.AlphaAnimationActivity" />
+        <activity android:name=".anim.TranslationAnimationActivity" />
+        <activity android:name=".anim.ScaleAnimationActivity" />
+        <activity android:name=".anim.RotationAnimationActivity"></activity>
     </application>
 
 </manifest>
