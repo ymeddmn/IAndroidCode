@@ -17,7 +17,9 @@ public class AnimListActivity extends BaseActivity {
             new InfoBean("TranslationAnimation动画", TranslationAnimationActivity.class),
             new InfoBean("ScaleAnimation动画", ScaleAnimationActivity.class),
             new InfoBean("RotationAnimation动画", RotationAnimationActivity.class),
-            new InfoBean("ValueAnimator动画", ValueAnimatorActivity.class)};
+            new InfoBean("ValueAnimator动画", ValueAnimatorActivity.class),
+            new InfoBean("选择图片的转场动画", ImageTurnActivity.class),
+            new InfoBean("选择图片的转场动画1", ImageShowActivity1.class)};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

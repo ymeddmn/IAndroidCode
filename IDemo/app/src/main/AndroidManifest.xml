@@ -28,7 +28,15 @@
         <activity android:name=".anim.TranslationAnimationActivity" />
         <activity android:name=".anim.ScaleAnimationActivity" />
         <activity android:name=".anim.RotationAnimationActivity" />
-        <activity android:name=".anim.ValueAnimatorActivity"/>
+        <activity android:name=".anim.ValueAnimatorActivity" />
+        <activity android:name=".anim.ImageTurnActivity" />
+        <activity
+            android:name=".anim.ImageShowActivity"
+            android:theme="@style/NoTitleTranslucentTheme" />
+        <activity
+            android:name=".anim.ImageShowActivity1"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleTranslucentTheme" />
     </application>
 
 </manifest>
