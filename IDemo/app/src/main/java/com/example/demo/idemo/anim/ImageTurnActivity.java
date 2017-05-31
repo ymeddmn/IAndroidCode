@@ -1,12 +1,9 @@
 package com.example.demo.idemo.anim;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -46,8 +43,10 @@ public class ImageTurnActivity extends AppCompatActivity implements View.OnClick
         float ivHeight = iv.getHeight();
         float x = iv.getX();
         float y = iv.getY();
+        float pX = iv.getPivotX();
+        float pY = iv.getPivotY();
         LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) iv.getLayoutParams();
-        Intent intent = new Intent(this, ImageShowActivity1.class);
+        Intent intent = new Intent(this, ShowImageActivity2.class);
         int[] location = new int[2];
         iv.getLocationOnScreen(location);
         float topMargin = params.topMargin;
@@ -58,6 +57,15 @@ public class ImageTurnActivity extends AppCompatActivity implements View.OnClick
         intent.putExtra("height", ivHeight);
         intent.putExtra("topMargin", topMargin);
         intent.putExtra("leftMargin", leftMargin);
+        float left = iv.getLeft();
+        float right = iv.getRight();
+        float top = iv.getTop();
+        float bottom = iv.getBottom();
+        intent.putExtra("left",left);
+        intent.putExtra("right",right);
+        intent.putExtra("top",top);
+        intent.putExtra("bottom",bottom);
+
         intent.putExtra("x", x);
         intent.putExtra("y", y);
         startActivity(intent);

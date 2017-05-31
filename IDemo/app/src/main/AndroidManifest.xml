@@ -37,6 +37,10 @@
             android:name=".anim.ImageShowActivity1"
             android:screenOrientation="portrait"
             android:theme="@style/NoTitleTranslucentTheme" />
+        <activity
+            android:name=".anim.ShowImageActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleTranslucentTheme" />
     </application>
 
 </manifest>
