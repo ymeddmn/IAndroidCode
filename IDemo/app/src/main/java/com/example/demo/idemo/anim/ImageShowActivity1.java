@@ -56,16 +56,12 @@ public class ImageShowActivity1 extends BaseActivity implements View.OnClickList
         params.leftMargin = (int) leftMargin;
         params.topMargin = (int) topMagin;
         iv.setLayoutParams(params);
-//        iv.setX(x1);
-//        iv.setY(y1);
         showAnim1();
     }
 
     @Override
     public void onClick(View v) {
         showAnim2();
-//        ShowImageDialog editNameDialog = new ShowImageDialog();
-//        editNameDialog.show(getSupportFragmentManager(), "EditNameDialog");
     }
 
 

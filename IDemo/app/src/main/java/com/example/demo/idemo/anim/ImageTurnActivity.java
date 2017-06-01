@@ -46,7 +46,7 @@ public class ImageTurnActivity extends AppCompatActivity implements View.OnClick
         float pX = iv.getPivotX();
         float pY = iv.getPivotY();
         LinearLayout.LayoutParams params = (LinearLayout.LayoutParams) iv.getLayoutParams();
-        Intent intent = new Intent(this, ShowImageActivity2.class);
+        Intent intent = new Intent(this, ShowImageActivity3.class);
         int[] location = new int[2];
         iv.getLocationOnScreen(location);
         float topMargin = params.topMargin;
@@ -55,8 +55,10 @@ public class ImageTurnActivity extends AppCompatActivity implements View.OnClick
         intent.putExtra("locationY", location[1]);//必须
         intent.putExtra("width", ivWidth);
         intent.putExtra("height", ivHeight);
-        intent.putExtra("topMargin", topMargin);
-        intent.putExtra("leftMargin", leftMargin);
+//        intent.putExtra("topMargin", topMargin);
+//        intent.putExtra("leftMargin", leftMargin);
+        intent.putExtra("topMargin", iv.getTop());
+        intent.putExtra("leftMargin", iv.getLeft());
         float left = iv.getLeft();
         float right = iv.getRight();
         float top = iv.getTop();
