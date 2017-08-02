@@ -12,7 +12,16 @@ import android.view.animation.ScaleAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.bumptech.glide.Glide;
 import com.example.demo.idemo.R;
+
+import java.util.Collections;
+import java.util.concurrent.ThreadPoolExecutor;
+
+import okhttp3.Call;
+import okhttp3.OkHttpClient;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class ShowImageActivity2 extends AppCompatActivity implements View.OnClickListener {
     private ImageView iv;
@@ -61,19 +70,42 @@ public class ShowImageActivity2 extends AppCompatActivity implements View.OnClic
 //        iv.setY(y1);
         llContainer.requestLayout();
         iv.invalidate();
-        handler.postDelayed(null,200); 
+        handler.postDelayed(null, 200);
+        handler.sendMessage();
+        ThreadPoolExecutor
     }
+
     Handler handler = new Handler(new Handler.Callback() {
         @Override
         public boolean handleMessage(Message message) {
             showAnim();
+            Glide.with(this).load("sdf").into();
+            OkHttpClient client;
+            client.newCall();
+            Call call;
+            call.execute();
+            call.enqueue();
+            retrofit2.Call c;
+            c.enqueue(new Callback() {
+                @Override
+                public void onResponse(retrofit2.Call call, Response response) {
+
+                }
+
+                @Override
+                public void onFailure(retrofit2.Call call, Throwable t) {
+
+                }
+            });
 
             return false;
         }
     });
+
     @Override
     public void onClick(View view) {
         showAnim1();
+
     }
 
     float width1, height1, x1, y1;

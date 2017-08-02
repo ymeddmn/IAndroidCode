@@ -3,9 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IFrameWork.iml" filepath="$PROJECT_DIR$/IFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IFrameWork.iml" filepath="$PROJECT_DIR$/IFrameWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IjkLib/IjkLib.iml" filepath="$PROJECT_DIR$/IjkLib/IjkLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/IjkLib/IjkLib.iml" filepath="$PROJECT_DIR$/IjkLib/IjkLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/WheelPicker/WheelPicker.iml" filepath="$PROJECT_DIR$/WheelPicker/WheelPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WheelPicker/WheelPicker.iml" filepath="$PROJECT_DIR$/WheelPicker/WheelPicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
     </modules>
   </component>

@@ -10,6 +10,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.annotation.NonNull;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -22,9 +23,8 @@ import com.example.administrator.common.R;
 import com.example.mvplibrary.utils.ScreenUtils;
 import com.example.mvplibrary.utils.SuperToast;
 import com.example.mvplibrary.zview.base.BaseView;
-import com.zhy.autolayout.AutoLayoutActivity;
 
-public abstract class BaseActivity extends AutoLayoutActivity implements BaseView {
+public abstract class BaseActivity extends AppCompatActivity implements BaseView {
 
 
     @Override
