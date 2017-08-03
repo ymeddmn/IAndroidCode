@@ -48,13 +48,6 @@ public class ValueAnimatorActivity extends BaseActivity implements View.OnClickL
                 iv.setY(value);
             }
         });
-        animator.setEvaluator(new TypeEvaluator() {
-            @Override
-            public Object evaluate(float fraction, Object startValue, Object endValue) {
-                
-                return null;
-            }
-        });
         animator.start();
     }
 }

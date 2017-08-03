@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/ll_show2"
     tools:context="com.example.demo.idemo.anim.ShowImageActivity2">
 
-    <ImageView
-        android:id="@+id/iv_show2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/lufei" />
-</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_show2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#f00">
+
+        <ImageView
+            android:id="@+id/iv_show2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/llll" />
+    </LinearLayout>
+</RelativeLayout>
